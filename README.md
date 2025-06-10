@@ -40,7 +40,6 @@ print("node_to_topic.pkl has been generated.")
 ```
 
 We got `node_to_topic.pkl` file with embedding. This files is used for selecting influencers based on topic in seed_tag.py.
-The new `seed_tag.py` script can be find here github link.
 
 ### Run the Code —
 

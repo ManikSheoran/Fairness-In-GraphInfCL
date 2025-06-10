@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Modified on June 8, 2025
-Fairness-aware version of influencer seed selection script
-Changes:
-- Enforced max influencers per topic during greedy selection
-- Added fairness metric (entropy + topic distribution)
-- Preserved original logic and added new constraints cleanly
-"""
-
 import numpy as np
 from collections import defaultdict, Counter
 from sklearn.metrics.pairwise import cosine_similarity

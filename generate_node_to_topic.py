@@ -11,7 +11,7 @@ node_ids = list(feature_dict.keys())
 embeddings = np.array([feature_dict[nid] for nid in node_ids])
 
 # Cluster into topics
-num_topics = 5  # Change this to suit your domain
+num_topics = 5
 kmeans = KMeans(n_clusters=num_topics, random_state=42)
 labels = kmeans.fit_predict(embeddings)
 
